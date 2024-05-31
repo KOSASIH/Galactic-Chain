@@ -1,0 +1,20 @@
+{
+  "network": "testnet",
+  "port": 30303,
+  "rpc": {
+    "port": 8545,
+    "api": [
+      "eth",
+      "net",
+      "web3"
+    ]
+  },
+  "p2p": {
+    "port": 30304,
+    "maxPeers": 50
+  },
+  "db": {
+    "path": "./chaindata",
+    "engine": "leveldb"
+  }
+}
