@@ -7,8 +7,12 @@ if __name__ == "__main__":
     blockchain = Blockchain(blockchain_storage)
 
     # Add blocks to the blockchain
-    block1 = Block(1, [], "0x0000000000000000000000000000000000000000000000000000000000000000")
-    block2 = Block(2, [], "0x0000000000000000000000000000000000000000000000000000000000000001")
+    block1 = Block(
+        1, [], "0x0000000000000000000000000000000000000000000000000000000000000000"
+    )
+    block2 = Block(
+        2, [], "0x0000000000000000000000000000000000000000000000000000000000000001"
+    )
     blockchain.add_block(block1)
     blockchain.add_block(block2)
 
