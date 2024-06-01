@@ -1,5 +1,6 @@
-from.transaction_validator import TransactionValidator
-from.block_validator import BlockValidator
+from .block_validator import BlockValidator
+from .transaction_validator import TransactionValidator
+
 
 class NodeService:
     def __init__(self, transaction_validator, block_validator):
