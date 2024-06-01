@@ -1,5 +1,6 @@
-from.node_service import NodeService
-from.node_storage import NodeStorage
+from .node_service import NodeService
+from .node_storage import NodeStorage
+
 
 class Node:
     def __init__(self, node_id, node_service, node_storage):
