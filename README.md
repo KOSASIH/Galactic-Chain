@@ -1,3 +1,4 @@
+![Static Badge](https://img.shields.io/badge/Galactic-Chain-gold)
 [![DeepSource](https://app.deepsource.com/gh/KOSASIH/Galactic-Chain.svg/?label=active+issues&show_trend=true&token=Va43Tbxi_dN9KfZpLVGUR_K4)](https://app.deepsource.com/gh/KOSASIH/Galactic-Chain/)
 [![Greetings](https://github.com/KOSASIH/Galactic-Chain/actions/workflows/greetings.yml/badge.svg)](https://github.com/KOSASIH/Galactic-Chain/actions/workflows/greetings.yml)
 
