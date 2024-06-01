@@ -1,4 +1,5 @@
-from.blockchain_storage import BlockchainStorage
+from .blockchain_storage import BlockchainStorage
+
 
 class Blockchain:
     def __init__(self, blockchain_storage):
