@@ -1,5 +1,7 @@
 import unittest
+
 from node.node import Node
+
 
 class TestNode(unittest.TestCase):
     def test_add_transaction(self):
