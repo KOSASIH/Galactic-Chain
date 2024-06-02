@@ -2,6 +2,7 @@ import hashlib
 import random
 from typing import List
 
+
 class ProofOfWork:
     def __init__(self, blockchain):
         self.blockchain = blockchain
@@ -9,6 +10,7 @@ class ProofOfWork:
     def validate_block(self, block):
         # Implement Proof of Work consensus algorithm
         pass
+
 
 class ProofOfStake:
     def __init__(self, blockchain, validators: List[str]):
@@ -24,7 +26,9 @@ class ProofOfStake:
 
     def select_validator(self):
         # Select a random validator based on their stake weight
-        random_validator = random.choices(list(self.stake_weights.keys()), weights=self.stake_weights.values())[0]
+        random_validator = random.choices(
+            list(self.stake_weights.keys()), weights=self.stake_weights.values()
+        )[0]
         return random_validator
 
     def validate_block(self, block):
@@ -32,7 +36,9 @@ class ProofOfStake:
         validator = self.select_validator()
         block_hash = hashlib.sha256(str(block).encode()).hexdigest()
         validator_hash = hashlib.sha256(validator.encode()).hexdigest()
-        combined_hash = hashlib.sha256((block_hash + validator_hash).encode()).hexdigest()
+        combined_hash = hashlib.sha256(
+            (block_hash + validator_hash).encode()
+        ).hexdigest()
 
         # Check if the combined hash meets the target difficulty
         target_difficulty = self.blockchain.target_difficulty
