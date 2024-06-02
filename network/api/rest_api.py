@@ -1,9 +1,10 @@
-import os
 import json
-from flask import Flask, request, jsonify
+import os
+
+from flask import Flask, jsonify, request
 from flask_restful import Api, Resource
-from galactic_chain.utils.math.elliptic_curve_arithmetic import EllipticCurveArithmetic
 from galactic_chain.core.smart_contracts.ai_contract import AIContractEngine
+from galactic_chain.utils.math.elliptic_curve_arithmetic import EllipticCurveArithmetic
 
 app = Flask(__name__)
 api = Api(app)
@@ -14,9 +15,11 @@ ai_contract_engine = AIContractEngine()
 # Load Elliptic Curve Arithmetic
 ecc = EllipticCurveArithmetic()
 
+
 class GalacticChainAPI(Resource):
     def get(self):
         return {"message": "Welcome to the Galactic Chain API"}
+
 
 class SmartContractAPI(Resource):
     def post(self):
@@ -30,6 +33,7 @@ class SmartContractAPI(Resource):
         # Get contract details
         contract = ai_contract_engine.get_contract(contract_name)
         return {"contract": contract.to_dict()}
+
 
 class TransactionAPI(Resource):
     def post(self):
@@ -45,6 +49,7 @@ class TransactionAPI(Resource):
         transaction = ai_contract_engine.get_transaction(transaction_id)
         return {"transaction": transaction.to_dict()}
 
+
 class EllipticCurveAPI(Resource):
     def post(self):
         # Perform elliptic curve operation
@@ -53,10 +58,13 @@ class EllipticCurveAPI(Resource):
         result = ecc.perform_operation(operation, params)
         return {"result": result}
 
-api.add_resource(GalacticChainAPI, '/')
-api.add_resource(SmartContractAPI, '/contracts', '/contracts/<string:contract_name>')
-api.add_resource(TransactionAPI, '/transactions', '/transactions/<string:transaction_id>')
-api.add_resource(EllipticCurveAPI, '/elliptic_curve')
 
-if __name__ == '__main__':
+api.add_resource(GalacticChainAPI, "/")
+api.add_resource(SmartContractAPI, "/contracts", "/contracts/<string:contract_name>")
+api.add_resource(
+    TransactionAPI, "/transactions", "/transactions/<string:transaction_id>"
+)
+api.add_resource(EllipticCurveAPI, "/elliptic_curve")
+
+if __name__ == "__main__":
     app.run(debug=True)
