@@ -3,6 +3,7 @@
 import numpy as np
 from scipy.linalg import qr
 
+
 class NTRUCryptosystem:
     def __init__(self, n, q, p, d):
         """
@@ -28,7 +29,7 @@ class NTRUCryptosystem:
         f = self.poly_ring.random_element()
         g = self.poly_ring.random_element()
         F = f * g % self.q
-        h = F * g^-1 % self.q
+        h = F * g ^ -1 % self.q
         public_key = h
         private_key = (f, g)
         return public_key, private_key
@@ -55,9 +56,10 @@ class NTRUCryptosystem:
         :return: Decrypted message
         """
         f, g = private_key
-        a = ciphertext * f^-1 % self.q
+        a = ciphertext * f ^ -1 % self.q
         b = a * g % self.q
         return b
+
 
 class PolynomialRing:
     def __init__(self, n, d):
@@ -121,6 +123,7 @@ class PolynomialRing:
         q, r = qr(a.c, b.c)
         return np.poly1d(q)
 
+
 def main():
     n = 512
     q = 2048
@@ -139,6 +142,7 @@ def main():
     print("Message:", message)
     print("Ciphertext:", ciphertext)
     print("Decrypted Message:", decrypted_message)
+
 
 if __name__ == "__main__":
     main()
