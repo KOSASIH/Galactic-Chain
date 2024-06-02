@@ -1,6 +1,8 @@
 import unittest
+
 from transaction.transaction import Transaction
 from transaction.transaction_validator import TransactionValidator
+
 
 class TestTransaction(unittest.TestCase):
     def setUp(self):
@@ -27,6 +29,7 @@ class TestTransaction(unittest.TestCase):
     def test_transaction_invalid_amount(self):
         self.transaction.amount = -10.0
         self.assertFalse(self.transaction_validator.validate(self.transaction))
+
 
 if __name__ == "__main__":
     unittest.main()
