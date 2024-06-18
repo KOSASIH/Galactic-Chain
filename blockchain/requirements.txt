@@ -9,7 +9,7 @@ web3==5.23.0
 # API dependencies
 fastapi==0.65.2
 uvicorn==0.13.4
-pydantic==1.9.0
+pydantic==1.10.13
 
 # Database dependencies
 sqlalchemy==1.4.25
