@@ -1,0 +1,82 @@
+openapi: 3.0.0
+info:
+  title: Wallet API
+  version: 1.0.0
+servers:
+  - url: http://localhost:8000/api
+paths:
+  /wallet/create:
+    post:
+      summary: Create a new wallet
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                password:
+                  type: string
+                  description: Password for the wallet
+      responses:
+        '200':
+          description: Wallet created
+  /wallet/import:
+    post:
+      summary: Import an existing wallet
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                private_key:
+                  type: string
+                  description: Private key to import
+      responses:
+        '200':
+          description: Wallet imported
+  /wallet/export:
+    post:
+      summary: Export the wallet
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                password:
+                  type: string
+                  description: Password for the wallet
+      responses:
+        '200':
+          description: Wallet exported
+  /wallet/address:
+    get:
+      summary: Get the wallet address
+      responses:
+        '200':
+          description: Wallet address
+  /wallet/balance:
+    get:
+      summary: Get the wallet balance
+      responses:
+        '200':
+          description: Wallet balance
+  /wallet/send:
+    post:
+      summary: Send tokens
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                recipient:
+                  type: string
+                  description: Recipient address
+                amount:
+                  type: integer
+                  description: Amount to send
+      responses:
+        '200':
+          description: Transaction sent
