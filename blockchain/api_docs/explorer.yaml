@@ -1,0 +1,82 @@
+openapi: 3.0.0
+info:
+  title: Blockchain Explorer API
+  version: 1.0.0
+servers:
+  - url: http://localhost:8000/explorer
+paths:
+  /explorer/blocks:
+    get:
+      summary: Get a list of blocks
+      responses:
+        '200':
+          description: List of blocks
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Block'
+  /explorer/transactions:
+    get:
+      summary: Get a list of transactions
+      responses:
+        '200':
+          description: List of transactions
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Transaction'
+  /explorer/address/{address}:
+    get:
+      summary: Get address information
+      parameters:
+        - in: path
+          name: address
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Address information
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  address:
+                    type: string
+                  balance:
+                    type: integer
+                  transactions:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/Transaction'
+components:
+  schemas:
+    Block:
+      type: object
+      properties:
+        block_height:
+          type: integer
+        block_hash:
+          type: string
+        transactions:
+          type: array
+          items:
+            $ref: '#/components/schemas/Transaction'
+    Transaction:
+      type: object
+      properties:
+        transaction_hash:
+          type: string
+        from_address:
+          type: string
+        to_address:
+          type: string
+        amount:
+          type: integer
+        timestamp:
+          type: integer
