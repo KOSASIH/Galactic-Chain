@@ -24,6 +24,6 @@ pytest==6.2.4
 pytest-cov==2.12.1
 
 # Other dependencies
-requests==2.26.0
+requests==2.32.2
 beautifulsoup4==4.9.3
 lxml==4.6.3
