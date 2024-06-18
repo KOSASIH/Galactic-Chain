@@ -1,0 +1,98 @@
+openapi: 3.0.0
+info:
+  title: Blockchain API
+  version: 1.0.0
+servers:
+  - url: http://localhost:8000/api
+paths:
+  /blockchain/height:
+    get:
+      summary: Get the current blockchain height
+      responses:
+        '200':
+          description: Blockchain height
+          content:
+            application/json:
+              schema:
+                type: integer
+  /blockchain/block/{block_height}:
+    get:
+      summary: Get a block by height
+      parameters:
+        - in: path
+          name: block_height
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Block
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  block_height:
+                    type: integer
+                  block_hash:
+                    type: string
+                  transactions:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/Transaction'
+  /blockchain/transaction/{transaction_hash}:
+    get:
+      summary: Get a transaction by hash
+      parameters:
+        - in: path
+          name: transaction_hash
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Transaction
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Transaction'
+  /blockchain/address/{address}:
+    get:
+      summary: Get address information
+      parameters:
+        - in: path
+          name: address
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Address information
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  address:
+                    type: string
+                  balance:
+                    type: integer
+                  transactions:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/Transaction'
+components:
+  schemas:
+    Transaction:
+      type: object
+      properties:
+        transaction_hash:
+          type: string
+        from_address:
+          type: string
+        to_address:
+          type: string
+        amount:
+          type: integer
+        timestamp:
+          type: integer
