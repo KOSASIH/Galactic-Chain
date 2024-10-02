@@ -9,6 +9,12 @@
 [![Andromeda Code Quality Assurance](https://img.shields.io/badge/Andromeda%20Code%20Quality-Assured-87CEEB.svg)](https://github.com/KOSASIH/Galactic-Chain)
 
 [![ISA Certification](https://img.shields.io/badge/ISA%20Certification-Compliant-00BFFF.svg)](https://www.isa.int/certification/galactic-chain)
+[![GUAL Member](https://img.shields.io/badge/GUAL%20Member-Verified-FFC107.svg)](https://www.gual.org/members/galactic-chain)
+[![IPSI Badge](https://img.shields.io/badge/IPSI%20Badge-Participating-FF69B4.svg)](https://www.ipsi.int/projects/galactic-chain)
+[![CSA Certification](https://img.shields.io/badge/CSA%20Certification-Certified-008000.svg)](https://www.cs-alliance.org/certification/galactic-chain)
+[![UGCAL Code Quality](https://img.shields.io/badge/UGCAL%20Code%20Quality-Assured-87CEEB.svg)](https://www.ugcal.org/code-quality/galactic-chain)
+[![ACRB Badge](https://img.shields.io/badge/ACRB%20Badge-Approved-6495ED.svg)](https://www.acrb.org/reviews/galactic-chain)
+[![GIT Innovation Badge](https://img.shields.io/badge/GIT%20Innovation%20Badge-Innovative-FFA07A.svg)](https://www.git.edu/innovation/galactic-chain)
 
 <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/KOSASIH/Galactic-Chain">Galactic Chain</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://www.linkedin.com/in/kosasih-81b46b5a">KOSASIH</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Creative Commons Attribution 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></a></p>
 
