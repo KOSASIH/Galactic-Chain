@@ -25,6 +25,15 @@
 [![GCA Certification](https://img.shields.io/badge/GCA%20Certification-Certified-008000.svg)](https://www.gca.int/certification/galactic-chain)
 [![ISF Badge](https://img.shields.io/badge/ISF%20Badge-Participating-FF69B4.svg)](https://www.isf.int/projects/galactic-chain)
 [![GTA Innovation Badge](https://img.shields.io/badge/GTA%20Innovation%20Badge-Innovative-FFA07A.svg)](https://www.gta.int/innovation/galactic-chain)
+[![GAIA Badge](https://img.shields.io/badge/GAIA%20Badge-AI%20Powered-6495ED.svg)](https://www.gaia.int/ai/galactic-chain)
+[![IBA Certification](https://img.shields.io/badge/IBA%20Certification-Certified-008000.svg)](https://www.iba.int/certification/galactic-chain)
+[![CDSC Badge](https://img.shields.io/badge/CDSC%20Badge-Data%20Driven-FF69B4.svg)](https://www.cdsc.int/data/galactic-chain)
+[![GIOTA Badge](https://img.shields.io/badge/GIOTA%20Badge-IoT%20Enabled-6495ED.svg)](https://www.giota.int/iot/galactic-chain)
+[![UGDA Badge](https://img.shields.io/badge/UGDA%20Badge-Developer%20Community-FFA07A.svg)](https://www.ugda.int/community/galactic-chain)
+[![IDA Certification](https://img.shields.io/badge/IDA%20Certification-Certified-008000.svg)](https://www.ida.int/certification/galactic-chain)
+[![GCCA Badge](https://img.shields.io/badge/GCCA%20Badge-Cloud%20Enabled-6495ED.svg)](https://www.gcca.int/cloud/galactic-chain)
+[![CCA Certification](https://img.shields.io/badge/CCA%20Certification-Certified-008000.svg)](https://www.cca.int/certification/galactic-chain)
+[![IITMA Badge](https://img.shields.io/badge/IITMA%20Badge-IT%20Service%20Management-FF69B4.svg)](https://www.iitma.int/itsm/galactic-chain)
 
 <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/KOSASIH/Galactic-Chain">Galactic Chain</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://www.linkedin.com/in/kosasih-81b46b5a">KOSASIH</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Creative Commons Attribution 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></a></p>
 
