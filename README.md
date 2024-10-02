@@ -3,6 +3,10 @@
 [![Greetings](https://github.com/KOSASIH/Galactic-Chain/actions/workflows/greetings.yml/badge.svg)](https://github.com/KOSASIH/Galactic-Chain/actions/workflows/greetings.yml)
 
 [![Galactic Standards Compliance](https://img.shields.io/badge/Galactic%20Standards-Compliant-00BFFF.svg)](https://github.com/KOSASIH/Galactic-Chain)
+[![Interstellar Open-Source Initiative](https://img.shields.io/badge/Interstellar%20Open--Source-Participating-FF69B4.svg)](https://github.com/KOSASIH/Galactic-Chain)
+[![Cosmic Security Certification](https://img.shields.io/badge/Cosmic%20Security-Certified-008000.svg)](https://github.com/KOSASIH/Galactic-Chain)
+[![UGCAL Member](https://img.shields.io/badge/UGCAL%20Member-Verified-FFC107.svg)](https://github.com/KOSASIH/Galactic-Chain)
+[![Andromeda Code Quality Assurance](https://img.shields.io/badge/Andromeda%20Code%20Quality-Assured-87CEEB.svg)](https://github.com/KOSASIH/Galactic-Chain)
 
 <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/KOSASIH/Galactic-Chain">Galactic Chain</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://www.linkedin.com/in/kosasih-81b46b5a">KOSASIH</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Creative Commons Attribution 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></a></p>
 
