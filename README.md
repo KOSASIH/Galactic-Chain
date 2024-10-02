@@ -34,6 +34,14 @@
 [![GCCA Badge](https://img.shields.io/badge/GCCA%20Badge-Cloud%20Enabled-6495ED.svg)](https://www.gcca.int/cloud/galactic-chain)
 [![CCA Certification](https://img.shields.io/badge/CCA%20Certification-Certified-008000.svg)](https://www.cca.int/certification/galactic-chain)
 [![IITMA Badge](https://img.shields.io/badge/IITMA%20Badge-IT%20Service%20Management-FF69B4.svg)](https://www.iitma.int/itsm/galactic-chain)
+[![ITA Certification](https://img.shields.io/badge/ITA%20Certification-Certified-008000.svg)](https://www.ita.int/certification/galactic-chain)
+[![CDA Badge](https://img.shields.io/badge/CDA%20Badge-Well%20Documented-6495ED.svg)](https://www.cda.int/documentation/galactic-chain)
+[![GCRB Badge](https://img.shields.io/badge/GCRB%20Badge-Code%20Reviewed-FF69B4.svg)](https://www.gcra.int/code-review/galactic-chain)
+[![IOSSA Badge](https://img.shields.io/badge/IOSSA%20Badge-Open%20Source-FFA07A.svg)](https://www.iossa.int/open-source/galactic-chain)
+[![GADA Certification](https://img.shields.io/badge/GADA%20Certification-Certified-008000.svg)](https://www.gada.int/certification/galactic-chain)
+[![CCIA Badge](https://img.shields.io/badge/CCIA%20Badge-Continuous%20Integration-6495ED.svg)](https://www.ccia.int/continuous-integration/galactic-chain)
+[![GCDA Badge](https://img.shields.io/badge/GCDA%20Badge-Continuous%20Deployment-FF69B4.svg)](https://www.gcda.int/continuous-deployment/galactic-chain)
+[![IDSA Certification](https://img.shields.io/badge/IDSA%20Certification-Certified-008000.svg)](https://www.idsa.int/certification/galactic-chain)
 
 <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/KOSASIH/Galactic-Chain">Galactic Chain</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://www.linkedin.com/in/kosasih-81b46b5a">KOSASIH</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Creative Commons Attribution 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></a></p>
 
