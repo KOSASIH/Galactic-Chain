@@ -1,7 +1,9 @@
 import hashlib
+
+from cryptography.hazmat.backends import default_backend
 from cryptography.hazmat.primitives import serialization
 from cryptography.hazmat.primitives.asymmetric import ec
-from cryptography.hazmat.backends import default_backend
+
 
 class EllipticCurveArithmetic:
     def __init__(self):
@@ -41,5 +43,6 @@ class EllipticCurveArithmetic:
         x = format(point.x, "x")
         y = format(point.y, "x")
         return f"{x},{y}"
+
 
 ecc = EllipticCurveArithmetic()
